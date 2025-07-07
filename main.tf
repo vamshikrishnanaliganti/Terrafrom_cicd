@@ -1,9 +1,9 @@
 provider "aws" {
-  region = "us-east-1"
+  region = "sa-east-1"
 }
 
 resource "aws_instance" "dev" {
-    ami = "ami-0f88e80871fd81e91"
+    ami = "ami-068990796e29243d5"
     instance_type = "t2.nano"
     tags = {
       Name = "devvr"

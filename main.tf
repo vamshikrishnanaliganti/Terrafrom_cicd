@@ -8,6 +8,6 @@ resource "aws_instance" "dev" {
     key_name      = "jenkins"
 
     tags = {
-      Name = "devvr"
+      Name = "test"
     }
 }
